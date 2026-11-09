@@ -1,0 +1,23 @@
+# Secrets: never commit these
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Packet captures can hold private traffic; VM images are huge
+*.pcap
+*.pcapng
+*.iso
+*.ova
+*.vdi
+*.vmdk
+
+# Obsidian files that change on every click
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Python
+__pycache__/
+.venv/
