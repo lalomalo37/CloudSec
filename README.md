@@ -10,9 +10,6 @@ databases and Python first, then Security+, SOC work, AWS and cloud security.
 - `scripts/`: Bash scripts
 - `weekly-log.md`: what I learned each week
 
-fish: Expected a string, but found a redirection
-cat > README.md <<'EOF'
-
 ## Certifications
 - [ ] CompTIA Security+
 - [ ] Microsoft SC-200
